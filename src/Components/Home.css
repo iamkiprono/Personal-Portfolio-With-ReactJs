@@ -29,6 +29,7 @@
   .home {
     width: 90%;
     margin: auto;
+    height: 85vh;
   }
   .description {
     font-size: 30px;
