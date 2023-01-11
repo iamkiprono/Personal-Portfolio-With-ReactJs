@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root{
+    --text-color: rgba(241, 236, 236, 0.795);
+    --backgroundColor: rgb(43, 40, 40);
+    --secColor: rgb(58, 158, 136);
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px;
+    background: var(--backgroundColor);
+}
+.navlinks ul li{
+    display: inline-block;
+}
+.navlinks ul li a{
+  margin-left: 30px;
+  color: var(--text-color) ;
+  transition: color .1s ease-in-out;
+}
+.navlinks ul li a:hover{
+    color:var(--secColor)
+}
+.logo{
+    color: var(--text-color);
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
