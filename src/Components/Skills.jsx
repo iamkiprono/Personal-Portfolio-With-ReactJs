@@ -10,9 +10,29 @@ const Skills = () => {
     <div className="skills">
       <div className="skills-container">
         <h3>Skills</h3>
+        <p>Front-End Skills</p>
         <div className="skills-cards">
           <div className="html-card card">
             <p>HTML</p>
+            <img src={htmlicon} alt="" />
+          </div>
+          <div className="CSS-card card">
+            <p>CSS</p>
+            <img src={cssicon} alt="" />
+          </div>
+          <div className="JavaScript-card card">
+            <p>JavaScript</p>
+            <img src={jsicon} alt="" />
+          </div>
+          <div className="React-card card">
+            <p>React</p>
+            <img src={reacticon} alt="" />
+          </div>
+        </div>
+        <p>Version Control</p>
+        <div className="skills-cards">
+          <div className="html-card card">
+            <p>Github</p>
             <img src={htmlicon} alt="" />
           </div>
           <div className="CSS-card card">

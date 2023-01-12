@@ -36,4 +36,32 @@
     font-size: 20px;
 }
 
+@media (max-width: 800px){
+    .navbar{
+        padding: 20px;
+        position: relative;
+    }
+/*  
+    .navlinks ul{
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: var(--text-color);
+        justify-content: space-around;
+        position: absolute;
+        height: 100vh;
+    }
+    .navlinks ul li{
+        display: flex;
+        
+    }
+    .navlinks ul li a{
+        color: var(--backgroundColor);
+        
+       
+    } */
+}
 

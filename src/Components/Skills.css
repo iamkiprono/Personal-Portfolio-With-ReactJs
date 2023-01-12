@@ -1,5 +1,5 @@
 .skills {
-  height: 100vh;
+  height: 100%;
   background: var(--backgroundColor);
   color: var(--text-color);
 }
@@ -34,11 +34,12 @@
 }
 @media (max-width: 800px) {
   .skills {
-    height: 65vh;
+    height: 50vh;
   }
   .skills-container {
     width: 90%;
     margin: auto;
+    
   }
   .skills-cards {
     margin-top: 20px;
@@ -48,7 +49,7 @@
   }
   .card {
     text-align: center;
-    width: 160px;
-    height: 200px;
+    width: 50px;
+    height: 100px;
   }
 }
