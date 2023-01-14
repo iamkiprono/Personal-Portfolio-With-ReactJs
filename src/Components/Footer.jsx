@@ -21,7 +21,7 @@ const Footer = () => {
             </a>
           </li>
           <li>
-            <a href="https://github.com/iamkiprono" target="_blank">
+            <a href="https://www.linkedin.com/in/collins-kiprono-b09b33247/" target="_blank">
               <i class="fa-brands fa-linkedin"></i>
             </a>
           </li>
@@ -32,7 +32,7 @@ const Footer = () => {
           </li>
         </ul>
       </div>
-      <p>{copyRight}</p>
+      <p>©{copyRight}</p>
     </div>
   );
 };
