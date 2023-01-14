@@ -26,7 +26,7 @@ const Footer = () => {
             </a>
           </li>
           <li>
-            <a href="https://github.com/iamkiprono" target="_blank">
+            <a href="https://wa.me/+254700362626" target="_blank">
               <i class="fa-brands fa-whatsapp"></i>
             </a>
           </li>
