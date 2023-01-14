@@ -15,7 +15,7 @@
   padding: 15px 20px;
   margin-top: 20px;
   border: none;
-  background: var(--backgroundColor);
+  background: var(--thirdColor);
   color: var(--text-color);
   border-radius: 5px;
   cursor: pointer;

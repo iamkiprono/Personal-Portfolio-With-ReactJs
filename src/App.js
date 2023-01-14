@@ -4,6 +4,7 @@ import Navbar from './Components/Navbar'
 import "./App.css"
 import Skills from './Components/Skills'
 import Footer from './Components/Footer'
+import ContactForm from './Components/ContactForm'
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Navbar/>
       <Home/>
       <Skills/>
+      <ContactForm/>
       <Footer/>
     </div>
   )

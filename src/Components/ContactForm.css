@@ -1,0 +1,59 @@
+.contactform{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.contactform form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    border: 1px solid grey;
+    padding: 100px 300px;
+    background: var(--backgroundColor);
+    color: var(--text-color);
+}
+.contactform form input{
+    width: 340px;
+    padding: 10px;
+    border-radius: 5px;
+    border: .4px solid grey;
+}
+.contactform  .message{ 
+  height: 100px;
+  margin-bottom: 20px;
+}
+.contactform form button{
+    color: var( --backgroundColor);
+    background: var(--text-color);
+    width: 100px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+label{
+    margin: 10px 0 10px 0;
+}
+
+
+@media (max-width: 800px){
+    .contactform form{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+        border: none;
+       
+        background: #fff;
+        color: #333;
+        padding: 0;
+
+    }
+    .contactform{
+        height: 60vh;
+    }
+    .contactform form button{
+        background: var(--backgroundColor);
+        color: var(--text-color);
+    }
+}
