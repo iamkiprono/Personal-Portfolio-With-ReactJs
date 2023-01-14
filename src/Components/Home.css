@@ -9,11 +9,12 @@
 }
 .description {
   font-size: 60px;
+  margin-top: 40px;
 }
 
 .btns button {
   padding: 15px 20px;
-  margin-top: 20px;
+  margin-top: 50px;
   border: none;
   background: var(--thirdColor);
   color: var(--text-color);
