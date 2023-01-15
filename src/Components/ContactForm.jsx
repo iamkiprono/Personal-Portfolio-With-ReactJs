@@ -5,6 +5,8 @@ const ContactForm = () => {
   return (
     <div className='contactform'>
         <h3>Contact Me</h3>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1228355685509098"
+     crossorigin="anonymous"></script>
         <form action="">
            
             <label htmlFor="">Name: </label>
