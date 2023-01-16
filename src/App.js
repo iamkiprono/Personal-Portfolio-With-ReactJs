@@ -6,9 +6,11 @@ import Skills from './Components/Skills'
 import Footer from './Components/Footer'
 import ContactForm from './Components/ContactForm'
 
+
 const App = () => {
   return (
     <div className='container'>
+      
       <Navbar/>
       <Home/>
       <Skills/>
