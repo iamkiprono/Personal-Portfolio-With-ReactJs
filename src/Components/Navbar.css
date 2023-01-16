@@ -19,6 +19,9 @@
     justify-content: space-between;
     padding: 20px 60px;
     background: var(--backgroundColor);
+    position: sticky;
+    top: 0;
+
 }
 .navlinks ul li{
     display: inline-block;
@@ -36,33 +39,25 @@
     cursor: pointer;
     font-size: 20px;
 }
+.resume {
+    
+   color: black;
+    border: 1px solid white;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
 
 @media (max-width: 800px){
     .navbar{
         padding: 20px;
-        position: relative;
-    }
-/*  
-    .navlinks ul{
+        position: sticky;
         top: 0;
-        left: 0;
-        width: 100%;
+    }
+    .navlinks ul{
         display: flex;
         flex-direction: column;
         align-items: center;
-        background: var(--text-color);
-        justify-content: space-around;
-        position: absolute;
-        height: 100vh;
     }
-    .navlinks ul li{
-        display: flex;
-        
-    }
-    .navlinks ul li a{
-        color: var(--backgroundColor);
-        
-       
-    } */
+  
 }
 

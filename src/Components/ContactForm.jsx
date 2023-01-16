@@ -3,16 +3,16 @@ import "./ContactForm.css"
 
 const ContactForm = () => {
   return (
-    <div className='contactform'>
+    <div id='contact' className='contactform'>
         <h3>Contact Me</h3>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1228355685509098"
      crossorigin="anonymous"></script>
         <form action="">
            
             <label htmlFor="">Name: </label>
-            <input type="text" placeholder='Write your name' required />
+            <input type="text" placeholder='Jone Doe' required />
             <label htmlFor="">Email: </label>
-            <input type="e-mail" placeholder='Enter Email' required />
+            <input type="email" placeholder='abc@xyz.com' required />
             <label htmlFor="">Message: </label>
             <input className='message' type="text" placeholder='Write message' required />
             <button>Send</button>

@@ -3,15 +3,16 @@ import './Navbar.css';
 
 const Navbar = () => {
   return (
-    <div className='navbar'>
+    <div id='navbar' className='navbar'>
         <div className="logo">Kiprono</div>
         <div className="navlinks">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a className='resume' href="kipronoresume.netlify.app" target="_blank">View Resume</a></li>
             </ul>
         </div>
 

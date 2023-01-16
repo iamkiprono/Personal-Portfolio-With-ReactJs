@@ -3,7 +3,7 @@ import "./Home.css";
 
 const Home = () => {
   return (
-    <div className="home">
+    <div id="home" className="home">
       <div className="home-text">
         <p>My Name is</p>
         <h1>Kiprono Collins</h1>
@@ -11,7 +11,7 @@ const Home = () => {
      crossorigin="anonymous"></script>
         <p className="description">I'm a Front-End Web Developer from Kenya</p>
         <div className="btns">
-          <button>Contact Me</button>
+          <button><a href="#contact">Contact Me</a></button>
         </div>
       </div>
     </div>
