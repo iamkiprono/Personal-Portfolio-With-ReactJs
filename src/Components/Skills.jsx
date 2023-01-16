@@ -15,7 +15,10 @@ const Skills = () => {
      crossorigin="anonymous"></script>
       <div className="skills-container">
         <h3>Skills</h3>
+        <div className="front-end">
+          <div className="front-head">
         <p>Front-End Skills</p>
+        </div>
         <div className="skills-cards">
           <div className="html-card card">
             <p>HTML</p>
@@ -34,12 +37,15 @@ const Skills = () => {
             <img src={reacticon} alt="" />
           </div>
         </div>
+        </div>
+        <div className="version-control">
         <p>Version Control</p>
         <div className="skills-cards">
           <div className="html-card card">
             <p>Github</p>
             <img src={githubicon} alt="" />
           </div>
+        </div>
         </div>
       </div>
     </div>

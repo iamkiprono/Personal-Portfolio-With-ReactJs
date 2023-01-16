@@ -8,11 +8,12 @@
 .contactform form{
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
-    border: 1px solid grey;
-    padding: 100px 300px;
-    background: var(--backgroundColor);
-    color: var(--text-color);
+    
+   
+    
+    padding: 50px 300px;
+    
+    color: var(--backgroundColor);
 }
 .contactform form input{
     width: 340px;
@@ -25,8 +26,8 @@
   margin-bottom: 20px;
 }
 .contactform form button{
-    color: var( --backgroundColor);
-    background: var(--text-color);
+    background: var( --backgroundColor);
+    color: var(--text-color);
     width: 100px;
     border: none;
     padding: 10px 20px;

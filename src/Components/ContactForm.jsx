@@ -10,9 +10,9 @@ const ContactForm = () => {
         <form action="">
            
             <label htmlFor="">Name: </label>
-            <input type="text" placeholder='Name' required />
+            <input type="text" placeholder='Write your name' required />
             <label htmlFor="">Email: </label>
-            <input type="e-mail" placeholder='Email' required />
+            <input type="e-mail" placeholder='Enter Email' required />
             <label htmlFor="">Message: </label>
             <input className='message' type="text" placeholder='Write message' required />
             <button>Send</button>

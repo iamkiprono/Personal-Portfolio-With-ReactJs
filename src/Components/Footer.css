@@ -24,6 +24,7 @@
     display: flex;
 }
 .footer a {
+  cursor: pointer;
     padding: 15px;
   color: var(--text-color);
   margin-top: 20px;
