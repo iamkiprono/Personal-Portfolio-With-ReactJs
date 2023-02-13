@@ -1,0 +1,34 @@
+.portfolio {
+  height: 100vh;
+  width: 1200px;
+  margin: auto;
+}
+
+.portfolio h3 {
+  text-align: center;
+  padding-top: 20px;
+}
+.portfolio-container{
+  width: 600px;
+  background: rgb(230, 224, 224);
+}
+.portfolio-container img{
+  width: 100%;
+  padding: 20px;
+}
+.projects{
+  display: flex;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+
+@media (max-width: 600px){
+.portfolio{
+  width: 90%;
+
+}
+.portfolio-container{
+  width: 330px;
+}
+}

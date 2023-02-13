@@ -11,8 +11,7 @@ const Skills = () => {
   return (
     
     <div id="skills" className="skills">
-      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1228355685509098"
-     crossorigin="anonymous"></script>
+      
       <div className="skills-container">
         <h3>Skills</h3>
         <div className="front-end">
