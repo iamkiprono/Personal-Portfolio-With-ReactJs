@@ -5,7 +5,7 @@ import fulltime from "../assets/360.jpg";
 const Portfolio = () => {
   return (
     <div id="portfolio" className="portfolio">
-      <h3>Portfolio</h3>
+      <h3>Projects</h3>
       <div className="projects">
         <div className="portfolio-container">
           <img src={fulltime} alt="" />
