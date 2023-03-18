@@ -1,46 +1,53 @@
 .portfolio {
-  height: 100vh;
-  width: 1200px;
+  min-height: 100vh;
+  width: 100%;
+}
+.portfolio-container {
+  min-height: 100vh;
+  max-width: 1200px;
+  
   margin: auto;
 }
-
-.portfolio h3 {
+.project-heading{
   text-align: center;
   padding-top: 20px;
+
 }
-.portfolio-container{
-  width: 600px;
-  background: rgb(230, 224, 224);
-}
-.portfolio-container img{
-  width: 100%;
-  padding: 20px;
-}
-.projects{
+
+.card-holder{
   display: flex;
-  gap: 40px;
-  margin-top: 40px;
+  flex-wrap: wrap;
+  gap: 20px;
   justify-content: center;
 }
-.project-links a{
+.card-portfolio{
+  width: 300px;
+  min-height: 500px;
+  background: rgba(226, 226, 226, 0.61);
+  position: relative;
+  padding: 40px 30px;
+}
+
+.card-portfolio img{
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  padding: 10px;
+}
+.card-portfolio p{
+font-size: 13px;
+font-weight: lighter;
+}
+
+.btns{
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 20px;
+}
+
+.btns a{
   border: 1px solid black;
-  margin-left: 10px;
-  color: white;
-  background: rgb(17, 15, 15);
-  
-  font-size: 15px;
-}
-.project-links{
-  margin: 20px 0;
-}
-
-
-@media (max-width: 600px){
-.portfolio{
-  width: 90%;
-
-}
-.portfolio-container{
-  width: 330px;
-}
+  margin: 5px;
+  padding: 5px;
+  color: black;
 }
