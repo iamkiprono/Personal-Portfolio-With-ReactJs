@@ -1,11 +1,13 @@
 .home {
   padding: 200px 60px;
-  min-height: 100vh;
+  max-height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   align-items: center;
   max-width: 1200px;
   margin: auto;
+  /* background: red; */
  
 }
 .home-text h1{
@@ -26,12 +28,8 @@ font-size: 80px;
   cursor: pointer;
   transition: color 0.1s ease-in-out;
 }
-.btns button a{
-  color: var(--text-color);
-}
-.btns button:hover {
-  color: var(--secColor);
-}
+
+
 
 @media (max-width: 800px) {
   .home {

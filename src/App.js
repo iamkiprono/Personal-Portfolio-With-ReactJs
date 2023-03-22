@@ -9,16 +9,16 @@ import Portfolio from "./Components/Portfolio";
 
 const App = () => {
   return (
-    
-      <div>
-        <Navbar />       
-        <Home />
-        <Skills />
-        <Portfolio />
-        <ContactForm />
-        <Footer />
-        </div>
-  )
+    <div>
+      <Navbar />
+      <Home />
+
+      <Skills />
+      <Portfolio />
+      <ContactForm />
+      <Footer />
+    </div>
+  );
 };
 
 export default App;

@@ -21,8 +21,12 @@ const Portfolio = () => {
             <h4>Tech:</h4>
             <p>Vanilla JavaScript</p>
             <div className="btns">
-              <a href="">View live</a>
-              <a href="">View on Github</a>
+              <a target="_blank" href="https://fulltime360.netlify.app">
+                View live
+              </a>
+              <a target="_blank" href="https://github.com/iamkiprono/FullTime-360-Website">
+                View on Github
+              </a>
             </div>
           </div>
           <div className="card-portfolio">
@@ -41,7 +45,9 @@ const Portfolio = () => {
               <a target="_blank" href="https://countriescollins.netlify.app/">
                 View live
               </a>
-              <a href="">View on Github</a>
+              <a target="_blank" href="https://github.com/iamkiprono/Countries-Rest-API-with-ReactJs">
+                View on Github
+              </a>
             </div>
           </div>
         </div>

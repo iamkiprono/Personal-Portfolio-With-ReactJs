@@ -39,7 +39,7 @@ font-size: 13px;
 font-weight: lighter;
 }
 
-.btns{
+.card-portfolio .btns{
   position: absolute;
   bottom: 0;
   margin-bottom: 20px;
