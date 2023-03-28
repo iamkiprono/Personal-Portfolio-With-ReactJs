@@ -14,7 +14,7 @@ const Portfolio = () => {
             <h4>Name: FullTime360</h4>
             <p>
               This is a football news website that consumes a RestAPI for the
-              news updates. The user can sign in an make changes on the databse
+              news updates. The user can sign in an make changes on the database
               and the website will automatically fetch the updated news using
               the fetch API and render on the webpage
             </p>
