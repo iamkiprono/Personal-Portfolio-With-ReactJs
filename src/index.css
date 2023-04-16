@@ -11,15 +11,13 @@
 .container {
   max-width: 1200px;
   margin: auto;
-  /* padding: 20px; */
-
 }
 
 nav a {
   color: whitesmoke;
   margin-left: 20px;
 }
-.active{
+.active {
   border-bottom: 1px solid white;
   /* padding: 5px; */
 }
@@ -58,7 +56,7 @@ nav {
   font-size: 80px;
 }
 
-.card{
+.card {
   background: rgba(227, 233, 236, 0.61);
   width: 340px;
   min-height: 400px;
@@ -67,17 +65,18 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 10px;
-  
-  transition: .6s ease-in-out;
+
+  transition: 0.6s ease-in-out;
 }
-.card:hover{
+.card:hover {
   /* margin-bottom: 20px; */
   padding: 10px;
-  transition: .3s ease-in-out;
+  transition: 0.3s ease-in-out;
   box-shadow: 3px 1px 8px rgb(65, 55, 55);
 }
 
-.skills-cards, .projects-cards{
+.skills-cards,
+.projects-cards {
   display: flex;
   gap: 20px;
   justify-content: center;
@@ -85,27 +84,27 @@ nav {
   margin-top: 20px;
   padding: 20px;
 }
-.card img{
+.card img {
   width: 100%;
   object-fit: contain;
- 
+
   padding: 20px;
 }
-.projects-cards img{
+.projects-cards img {
   height: 200px;
 }
-.button-links{
+.button-links {
   margin: 20px 0;
 }
 
-.button-links a{
+.button-links a {
   font-size: 13px;
   color: black;
   padding: 5px;
   border: 1px solid black;
   margin: 0 10px;
 }
-.contact-wrapper{
+.contact-wrapper {
   display: flex;
   flex-wrap: wrap;
 
@@ -114,24 +113,20 @@ nav {
   padding: 20px;
   justify-content: center;
 }
-.contact-wrapper a{
+.contact-wrapper a {
   font-size: 80px;
   color: black;
   padding: 30px;
-  transition: .6s ease-in-out;
+  transition: 0.6s ease-in-out;
 }
-.contact-wrapper a:hover{
- margin-bottom: 20px;
- transition: .3s ease-in-out;
- box-shadow: 3px 1px 80px rgb(65, 55, 55);
+.contact-wrapper a:hover {
+  margin-bottom: 20px;
+  transition: 0.3s ease-in-out;
+  box-shadow: 3px 1px 80px rgb(65, 55, 55);
 }
 
-
-
-
-
-@media (max-width: 500px){
-  .navlinks{
+@media (max-width: 500px) {
+  .navlinks {
     display: flex;
     flex-direction: column;
   }

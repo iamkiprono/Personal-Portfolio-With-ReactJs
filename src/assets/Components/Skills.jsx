@@ -16,7 +16,7 @@ const Skills = () => {
   return (
     <div>
       <div className="container">
-        <h3 className="headings">Skills</h3>
+        <h3 className="headings">Skils</h3>
         <div className="skills-cards">
           {loading
             ? "Loading..."

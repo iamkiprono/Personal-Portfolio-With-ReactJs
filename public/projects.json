@@ -9,17 +9,11 @@
   {
     "image": "/bl.jpg",
     "project": "BL Tips",
-    "desc": "",
+    "desc": "Selling football markets to clients based on football bookies. Clients can look through packages and decide on which package to buy then message the seller directly from the site through the WhatsApp link provided on the site.",
     "live_url": "https://bl-tips.netlify.app",
     "github_url": "https://github.com/iamkiprono/football-markets"
   },
-  {
-    "image": "",
-    "project": "Football News",
-    "desc": "A news update site that gives football fans up to date news on their favourite clubs. Get all the transfer news as they happen",
-    "live_url": "",
-    "github_url": ""
-  },
+
   {
     "image": "/countries.jpg",
     "project": "World Countries Api",
@@ -40,5 +34,12 @@
     "desc": "Dictionary app that returns multiple meanings of a specified keyword",
     "live_url": "https://react-dictionary-kiprono.netlify.app",
     "github_url": "https://github.com/iamkiprono/ReactJs-Dictionary-app"
+  },
+  {
+    "image": "/fulltime.jpg",
+    "project": "Football News",
+    "desc": "A news update site that gives football fans up to date news on their favourite clubs. Get all the transfer news as they happen.",
+    "live_url": "https://fulltime360.netlify.app/",
+    "github_url": "https://github.com/iamkiprono/FullTime-360-Website"
   }
 ]
