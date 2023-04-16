@@ -1,9 +1,118 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
-*{
-font-family: Poppins;
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  text-decoration: none;
 }
 
-html{
-    scroll-behavior: smooth;
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+
+}
+
+nav a {
+  color: whitesmoke;
+  margin-left: 20px;
+}
+
+.navbar {
+  margin: auto;
+  background: black;
+}
+
+nav {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  padding: 20px;
+}
+
+.headings {
+  text-align: center;
+}
+
+.details {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 70vh;
+}
+.details p {
+  font-size: 40px;
+}
+.details h1 {
+  font-size: 80px;
+}
+
+.card{
+  background: rgb(230, 224, 224);
+  width: 340px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.skills-cards, .projects-cards{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  padding: 20px;
+}
+.card img{
+  width: 100%;
+  object-fit: contain;
+ 
+  padding: 20px;
+}
+.projects-cards img{
+  height: 200px;
+}
+.button-links{
+  margin: 20px 0;
+}
+
+.button-links a{
+  font-size: 13px;
+  color: black;
+  padding: 5px;
+  border: 1px solid black;
+  margin: 0 10px;
+}
+.contact-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+
+  min-height: 70vh;
+  align-items: center;
+  padding: 20px;
+  justify-content: center;
+}
+.contact-wrapper a{
+  font-size: 80px;
+  color: black;
+  padding: 30px;
+}
+
+
+
+@media (max-width: 500px){
+  .navlinks{
+    display: flex;
+    flex-direction: column;
+  }
 }
