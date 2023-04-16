@@ -11,13 +11,17 @@
 .container {
   max-width: 1200px;
   margin: auto;
-  padding: 20px;
+  /* padding: 20px; */
 
 }
 
 nav a {
   color: whitesmoke;
   margin-left: 20px;
+}
+.active{
+  border-bottom: 1px solid white;
+  /* padding: 5px; */
 }
 
 .navbar {
@@ -55,7 +59,7 @@ nav {
 }
 
 .card{
-  background: rgb(230, 224, 224);
+  background: rgba(227, 233, 236, 0.61);
   width: 340px;
   min-height: 400px;
   display: flex;
@@ -63,6 +67,14 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 10px;
+  
+  transition: .6s ease-in-out;
+}
+.card:hover{
+  /* margin-bottom: 20px; */
+  padding: 10px;
+  transition: .3s ease-in-out;
+  box-shadow: 3px 1px 8px rgb(65, 55, 55);
 }
 
 .skills-cards, .projects-cards{
@@ -106,7 +118,15 @@ nav {
   font-size: 80px;
   color: black;
   padding: 30px;
+  transition: .6s ease-in-out;
 }
+.contact-wrapper a:hover{
+ margin-bottom: 20px;
+ transition: .3s ease-in-out;
+ box-shadow: 3px 1px 80px rgb(65, 55, 55);
+}
+
+
 
 
 
