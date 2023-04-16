@@ -23,7 +23,7 @@ const projectsData = [
   },
   {
     image: "/filter.jpg",
-    project: "Filterable List (Front Mentor Challenge)",
+    project: "Filterable List (FrontEnd Mentor Challenge)",
     desc: "A filterable list where one can filter through developers by their programming language skill.",
     live_url: "https://filter-list-frontendmentor.netlify.app/",
     github_url: "https://github.com/iamkiprono/Filterable-list-with-React",
