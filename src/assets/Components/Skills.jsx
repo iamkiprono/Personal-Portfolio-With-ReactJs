@@ -2,7 +2,7 @@ import React from "react";
 import skills from "../Components/Data/SkillsData";
 const Skills = () => {
   return (
-    <div>
+    <div id="skills">
       <div className="container">
         <h3 className="headings">Skills</h3>
         <div className="skills-cards">

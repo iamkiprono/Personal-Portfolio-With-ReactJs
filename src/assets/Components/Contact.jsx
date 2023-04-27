@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 
 const Contact = () => {
   return (
-    <div>
+    <div id="contact">
       <div className="container">
         <h3 className="headings">Contact</h3>
         <div className="contact-wrapper">

@@ -3,7 +3,7 @@ import projects from "./Data/ProjectsData";
 
 const Projects = () => {
   return (
-    <div>
+    <div id="projects">
       <div className="container">
         <h3 className="headings">Projects</h3>
         <div className="projects-cards">
