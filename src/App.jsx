@@ -14,11 +14,11 @@ const App = () => {
  
         <Navbar />
         <Home />
-        <div className="h-[5px] shadow-black"></div>
+        <div className="h-[2px] shadow-black bg-[#7C96AB]"></div>
         <Skills />
-        <div className="h-[5px] shadow-black"></div>
+        <div className="h-[2px] shadow-black bg-[#7C96AB]"></div>
         <Projects />
-        <div className="h-[5px] shadow-black"></div>
+        <div className="h-[2px] shadow-black bg-[#7C96AB]"></div>
         <Contact />
       </Router>
     </div>
