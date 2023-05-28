@@ -5,13 +5,13 @@ import Skills from "./assets/Components/Skills";
 import Projects from "./assets/Components/Projects";
 import Contact from "./assets/Components/Contact";
 import { BrowserRouter as Router } from "react-router-dom";
-import Portfolio from "./assets/Components/Portfolio";
+
 
 const App = () => {
   return (
     <div>
       <Router>
-        <Portfolio/>
+ 
         <Navbar />
         <Home />
         <Skills />
