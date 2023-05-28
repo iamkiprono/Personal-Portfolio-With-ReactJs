@@ -14,8 +14,11 @@ const App = () => {
  
         <Navbar />
         <Home />
+        <div className="h-[5px] bg-black"></div>
         <Skills />
+        <div className="h-[5px] bg-black"></div>
         <Projects />
+        <div className="h-[5px] bg-black"></div>
         <Contact />
       </Router>
     </div>
